@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="homework212011" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uuT-XA-3yY" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="197" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zyd-V5-MwF" appends="YES" id="H5L-8h-Mah"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OEs-SX-VOv" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="350" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mpt-UM-uxO" appends="YES" id="N8d-Sy-dcv"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJN-gN-qwy" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="278" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HRZ-Kk-pNj" appends="YES" id="2dx-Ei-C0l"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DK1-vh-jwk" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="423" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hPp-Q7-oLK" appends="YES" id="aUr-Fw-y4u"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Hb-NE-gb4" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="500" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Jft-Fh-fwX" appends="YES" id="bsB-zo-c34"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNi-jV-R9R" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="576" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="0yg-ly-Vg4" appends="YES" id="Gya-W0-PRd"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BwK-74-IrB" customClass="CircleView" customModule="homework212011" customModuleProvider="target">
+                                <rect key="frame" x="182" y="661" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundView" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueView" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="blueColor" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qd1-Fa-bHB" appends="YES" id="ri1-Gl-HtL"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstCircle" destination="uuT-XA-3yY" id="hZX-7Z-sQI"/>
+                        <outlet property="secondCircle" destination="dJN-gN-qwy" id="yvI-r3-ICP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="zyd-V5-MwF">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="a3e-f2-I9d"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="c0R-p9-07M"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="HRZ-Kk-pNj">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="bKv-LS-XNM"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="exG-ru-PTh"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Mpt-UM-uxO">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="w77-nj-CzP"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="LYx-vG-aZV"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hPp-Q7-oLK">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="ugp-Fu-CKF"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="pt9-Og-sUh"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Jft-Fh-fwX">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="Uvy-o1-KU0"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="B6d-Gj-MXx"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="0yg-ly-Vg4">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="XIq-Ia-EMs"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="HGk-6c-1lU"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="qd1-Fa-bHB">
+                    <connections>
+                        <action selector="panActionOne:" destination="BYZ-38-t0r" id="bnQ-Go-WDc"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="lgg-9V-Amk"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="37.681159420289859" y="16.741071428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
