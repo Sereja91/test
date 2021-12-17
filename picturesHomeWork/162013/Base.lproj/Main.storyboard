@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_62013" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R8P-wp-kJX">
+                                <rect key="frame" x="20" y="86" width="374" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="255" id="kXk-pX-ugW"/>
+                                </constraints>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWo-Ve-riC">
+                                <rect key="frame" x="347" y="373" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="LGM-jJ-bof"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fq7-UZ-OGV">
+                                <rect key="frame" x="20" y="373" width="142" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R8P-wp-kJX" secondAttribute="trailing" constant="20" id="0TQ-dI-Ru4"/>
+                            <constraint firstItem="vWo-Ve-riC" firstAttribute="leading" secondItem="Fq7-UZ-OGV" secondAttribute="trailing" constant="185" id="7nN-mZ-WNO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vWo-Ve-riC" secondAttribute="bottom" constant="458" id="9jw-IF-bCT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fq7-UZ-OGV" secondAttribute="bottom" constant="458" id="CjU-mg-Rvt"/>
+                            <constraint firstItem="vWo-Ve-riC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="347" id="GU2-ZN-Rkm"/>
+                            <constraint firstItem="R8P-wp-kJX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wg0-ql-vOR"/>
+                            <constraint firstItem="R8P-wp-kJX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="ihX-i3-AUr"/>
+                            <constraint firstItem="Fq7-UZ-OGV" firstAttribute="top" secondItem="R8P-wp-kJX" secondAttribute="bottom" constant="32" id="isL-Er-4lj"/>
+                            <constraint firstItem="Fq7-UZ-OGV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="j55-j2-s9Q"/>
+                            <constraint firstItem="vWo-Ve-riC" firstAttribute="top" secondItem="R8P-wp-kJX" secondAttribute="bottom" constant="32" id="kPw-dU-BYr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vWo-Ve-riC" secondAttribute="trailing" constant="18" id="wYB-Ml-Ktf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageViewForTwoPictures" destination="R8P-wp-kJX" id="zUr-u6-Uzs"/>
+                        <outlet property="pictureLabel" destination="Fq7-UZ-OGV" id="99e-sZ-tGY"/>
+                        <outlet property="switchForTwoPictures" destination="vWo-Ve-riC" id="zaB-Eh-2In"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
